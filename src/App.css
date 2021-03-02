@@ -1,0 +1,23 @@
+.fill-window {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.div-0 {
+    position: static;
+    height: 100%;
+}
+
+.div-1 {
+    position: static;
+    height: 80%;    
+    overflow-y: scroll;
+}
+
+.div-2 {
+    position: static;
+    height: 20%;
+}

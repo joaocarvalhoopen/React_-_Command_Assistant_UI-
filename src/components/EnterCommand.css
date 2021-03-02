@@ -1,0 +1,10 @@
+.commandInput {
+    position: static;
+    width: 90%;
+}
+
+.commandSubmit {
+    position: static;
+    width: 7.8%;
+  /*  width: 10ch; */
+}

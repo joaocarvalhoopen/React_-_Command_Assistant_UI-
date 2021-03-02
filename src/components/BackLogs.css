@@ -1,0 +1,48 @@
+.vertical-scrollable-b { 
+    position: static;
+    width: 99%;
+  /*  background-color: chartreuse; */
+  /*  color: chartreuse;            */
+    height: 85vmin;
+  }
+
+.backLogsEntryLeft { 
+    position: relative;
+    margin: 5px; 
+    padding: 5px;
+    width: 88%; 
+    height: auto;  
+    border-style: solid;
+    border-width: thin;
+    border-radius: 15px;
+    
+    background-color: green; 
+    border: green;
+    color: black;
+    
+    text-align:left; 
+    
+    /* To break on line breaks \n \r 
+       and do also the wrap to the next lime.*/
+    white-space: pre-wrap;
+} 
+
+.backLogsEntryRight { 
+    position: relative;
+    margin: 5px; 
+    padding: 5px;
+    left: 10%;
+    width: 88%; 
+    height: auto;
+     
+    border-style: solid;
+    border-width: thin;
+    border-radius: 15px;
+    
+    background-color: cornflowerblue;
+    border: cornflowerblue;
+    color: black; 
+    
+    text-align:right;
+} 
+
